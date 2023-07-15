@@ -126,4 +126,12 @@ devices: (
 }
 );
 ```
+```
 </details>
+
+## Fildem V2
+<details>
+    <summary>Global menu en Gnome 42+</summary>
+</details>
+```
+```
