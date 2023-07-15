@@ -2,7 +2,8 @@
 
 
 ## Autokey configuracion en Español (Latinoamerica) de MacOS
-
+<details>
+    <summary>Configuración para el teclado</summary>
 ```
 sudo apt install gnome-tweaks
 sudo apt install dbus-x11
@@ -22,9 +23,12 @@ Ir a Gnome Tweaks y modificar esto:
 
 ![image](https://github.com/soype/autokey-gnome-macos-phrases/assets/45084173/23e55f50-eb2b-4358-b189-6f64145bf087)
 
-## logiops-mxmaster3
-My config for logiops
+</details>
 
+## logiops-mxmaster3
+
+<details>
+    <summary>Configuración para el mouse</summary>
 Install
 ```
 sudo apt install build-essential cmake pkg-config libevdev-dev libudev-dev libconfig++-dev libglib2.0-dev
@@ -122,3 +126,4 @@ devices: (
 }
 );
 ```
+</details>
