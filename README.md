@@ -28,7 +28,7 @@ Ir a Gnome Tweaks y modificar esto:
 ## logiops-mxmaster3
 
 <details>
-    <summary>Configuración para el mouse</summary>
+    <summary>Configuración para el mouse Logitech Master 3 (ESPECIFICAMENTE)</summary>
 Install
 ```
 sudo apt install build-essential cmake pkg-config libevdev-dev libudev-dev libconfig++-dev libglib2.0-dev
