@@ -154,3 +154,59 @@ echo 'gtk-modules="appmenu-gtk-module"' >> ~/.gtkrc-2.0
 echo -e '[Settings]\ngtk-modules="appmenu-gtk-module"' >> ~/.config/gtk-3.0/settings.ini
 ```
 </details>
+
+
+##uLauncher
+```
+sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
+```
+##WhiteSur
+
+Instalar extensiones de Gnome
+
+###User Theme
+https://extensions.gnome.org/extension/19/user-themes/
+
+###Blur my shell
+https://extensions.gnome.org/extension/3193/blur-my-shell/
+
+```
+cd ~/Descargas
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
+cd WhiteSur-gtk-theme
+sudo ./install.sh
+```
+
+##Plank
+```
+sudo apt install plank
+```
+Plank debe ser configurado a mano
+Click derecho y seleccionar tema GTK+
+Ir a Ajustes -> Desktop -> Dock -> Desactivar dock 
+Ir a Tweaks -> Aplicaciones al inicio y agregar Plank
+Reiniciar
+
+##[OPCIONAL] Brave Browser
+```
+sudo apt install curl
+
+sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-relse.s3.brave.com/brave-browser-archive-keyring.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+
+sudo apt update
+```
+
+sudo apt install brave-browser
+
+## OPCIONALES
+
+A partir de acá, todo es opcional. Estos son los programas que yo utilizo y me sirve tenerlos todos acá para un setup más rápido
+
+## BitWarden
+Si estás en Ubuntu:
+```
+sudo snap install bitwarden
+```
+Sino, descargar desde PopShop o desde (la página)[https://bitwarden.com/download/]
