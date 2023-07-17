@@ -19,6 +19,10 @@ sudo ./install.sh
 sudo cp -r gnome-macos-phrases ~/.config/autokey/data
 cd ~/.config/autokey/data/gnome-macos-phrases
 tar -xvf command-link.tar.xz
+git clone https://github.com/petrstepanov/gnome-macos-remap
+cd gnome-macos-remap
+chmod +x ./install.sh ./uninstall.sh
+sudo ./install.sh
 autokey-gtk
 ```
 
