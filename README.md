@@ -162,6 +162,8 @@ sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt 
 ```
 ## WhiteSur
 <details>
+    <summary>Tema que afecta UI</summary>
+    
 Instalar extensiones de Gnome
 
 ### User Theme
@@ -176,7 +178,20 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd WhiteSur-gtk-theme
 sudo ./install.sh
 ```
+
+### Agregar fuente SF PRO Display
+```
+cd ~/Descargas
+git clone https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts
+sudo cp -r San-Francisco-Pro-Fonts /usr/share/fonts
+```
+
+En Gnome Tweaks reemplazar las fuentes:
+![image](https://github.com/soype/Configuracion-linux-macos/assets/45084173/ba6b4e18-aaa1-4b9b-891e-dcee4f84c36d)
+
+
 </details>
+
 
 ## Plank
 <details>
