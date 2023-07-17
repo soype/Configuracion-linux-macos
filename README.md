@@ -181,9 +181,11 @@ sudo ./install.sh
 ## Plank
 <details>
     <summary>Instalar plank y configurarlo</summary>    
+    
 ```
 sudo apt install plank
 ```
+
 Plank debe ser configurado a mano
 Click derecho y seleccionar tema GTK+
 Ir a Ajustes -> Desktop -> Dock -> Desactivar dock 
