@@ -132,7 +132,7 @@ devices: (
 }
 );
 ```
-```
+
 </details>
 
 ## Fildem V2
