@@ -35,6 +35,7 @@ Ir a Gnome Tweaks y modificar esto:
 <details>
     <summary>Configuración para el mouse Logitech Master 3 (ESPECIFICAMENTE)</summary>
 Install
+
 ```
 sudo apt install build-essential cmake pkg-config libevdev-dev libudev-dev libconfig++-dev libglib2.0-dev
 cd ~/Descargas/
@@ -50,8 +51,8 @@ git clone https://github.com/soype/logiops-mxmaster3
 cd logiops-mxmaster3
 sudo cp ./logid.cfg /etc/
 sudo systemctl enable --now logid
-
 ```
+
 
 logid.cfg
 
