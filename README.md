@@ -157,9 +157,19 @@ echo -e '[Settings]\ngtk-modules="appmenu-gtk-module"' >> ~/.config/gtk-3.0/sett
 
 
 ## uLauncher
+<details>
+    <summary>Launcher muy similar a Spotlight</summary>
+    
 ```
 sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
 ```
+Correr uLauncher, ir a preferencias y modificar el color a Dark si se prefiere. También habilitar "Launch at login"
+
+![image](https://github.com/soype/Configuracion-linux-macos/assets/45084173/3d37b319-331c-4146-8754-4963fa84168b)
+
+
+</details>
+
 ## WhiteSur
 <details>
     <summary>Tema que afecta UI</summary>
