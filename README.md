@@ -138,6 +138,15 @@ devices: (
 ## Fildem V2
 <details>
     <summary>Global menu en Gnome 42+</summary>
+
+```
+sudo apt install libbamf3-dev bamfdaemon libkeybinder-3.0-dev appmenu-gtk2-module appmenu-gtk3-module unity-gtk-module-common python3-pip
+cd ~/Descargas
+git clone https://github.com/Weather-OS/Fildem-v2
+cd Fildem-v2
+sudo cp -r fildemGMenu@gonza.com ~/.local/share/gnome-shell/extensions
+sudo python3 setup.py install --optimize=1
+echo 'gtk-modules="appmenu-gtk-module"' >> ~/.gtkrc-2.0
+echo -e '[Settings]\ngtk-modules="appmenu-gtk-module"' >> ~/.config/gtk-3.0/settings.ini
+```
 </details>
-```
-```
