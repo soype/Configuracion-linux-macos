@@ -39,7 +39,7 @@ Install
 ```
 sudo apt install build-essential cmake pkg-config libevdev-dev libudev-dev libconfig++-dev libglib2.0-dev
 cd ~/Descargas/
-git clone https://github.com/PixlOne/logiops/tree/main
+git clone https://github.com/PixlOne/logiops/
 cd logiops
 mkdir build
 cd build
