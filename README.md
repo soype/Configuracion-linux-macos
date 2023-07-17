@@ -194,6 +194,8 @@ Reiniciar
 
 </details>
 
+#### Revisar que al inicio se ejecuten: Autokey, Plank, uLauncher y logid
+
 ## OPCIONALES
 
 A partir de acá, todo es opcional. Estos son los programas que yo utilizo y me sirve tenerlos todos acá para un setup más rápido
