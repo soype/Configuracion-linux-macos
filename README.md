@@ -156,18 +156,18 @@ echo -e '[Settings]\ngtk-modules="appmenu-gtk-module"' >> ~/.config/gtk-3.0/sett
 </details>
 
 
-##uLauncher
+## uLauncher
 ```
 sudo add-apt-repository ppa:agornostal/ulauncher && sudo apt update && sudo apt install ulauncher
 ```
-##WhiteSur
-
+## WhiteSur
+<details>
 Instalar extensiones de Gnome
 
-###User Theme
+### User Theme
 https://extensions.gnome.org/extension/19/user-themes/
 
-###Blur my shell
+### Blur my shell
 https://extensions.gnome.org/extension/3193/blur-my-shell/
 
 ```
@@ -176,8 +176,10 @@ git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd WhiteSur-gtk-theme
 sudo ./install.sh
 ```
+</details>
 
 ##Plank
+<details>
 ```
 sudo apt install plank
 ```
@@ -186,8 +188,16 @@ Click derecho y seleccionar tema GTK+
 Ir a Ajustes -> Desktop -> Dock -> Desactivar dock 
 Ir a Tweaks -> Aplicaciones al inicio y agregar Plank
 Reiniciar
+</details>
+
+## OPCIONALES
+
+A partir de acá, todo es opcional. Estos son los programas que yo utilizo y me sirve tenerlos todos acá para un setup más rápido
+
 
 ##[OPCIONAL] Brave Browser
+<details>
+    
 ```
 sudo apt install curl
 
@@ -200,13 +210,16 @@ sudo apt update
 
 sudo apt install brave-browser
 
-## OPCIONALES
-
-A partir de acá, todo es opcional. Estos son los programas que yo utilizo y me sirve tenerlos todos acá para un setup más rápido
+</details>
 
 ## BitWarden
+
+<details>
+    
 Si estás en Ubuntu:
 ```
 sudo snap install bitwarden
 ```
 Sino, descargar desde PopShop o desde (la página)[https://bitwarden.com/download/]
+
+</details>
