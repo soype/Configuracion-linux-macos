@@ -2,8 +2,10 @@
 
 
 ## Autokey configuracion en Español (Latinoamerica) de MacOS
+
 <details>
     <summary>Configuración para el teclado</summary>
+
 ```
 sudo apt install gnome-tweaks
 sudo apt install dbus-x11
@@ -14,6 +16,9 @@ git clone https://github.com/soype/autokey-gnome-macos-phrases
 cd autokey-gnome-macos-phrases
 chmod +x ./install.sh
 sudo ./install.sh
+sudo cp -r gnome-macos-phrases ~/.config/autokey/data
+cd ~/.config/autokey/data/gnome-macos-phrases
+tar -xvf command-link.tar.xz
 autokey-gtk
 ```
 
