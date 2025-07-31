@@ -137,32 +137,6 @@ sudo apt install gnome-tweaks
 ```
 </details>
 
-## Fildem V2
-<details>
-    <summary>Global menu en Gnome 42+</summary>
-
-```
-sudo apt install libbamf3-dev bamfdaemon libkeybinder-3.0-dev appmenu-gtk2-module appmenu-gtk3-module unity-gtk-module-common python3-pip
-cd ~/Downloads
-git clone https://github.com/Weather-OS/Fildem-v2
-cd Fildem-v2
-sudo cp -r fildemGMenu@gonza.com ~/.local/share/gnome-shell/extensions
-sudo python3 setup.py install --optimize=1
-echo 'gtk-modules="appmenu-gtk-module"' >> ~/.gtkrc-2.0
-```
-
-Ir a ~/.config/gtk-3.0/ y abrir el archivo settings.ini
-Agregar esta línea debajo de Settings:
-```
-gtk-modules="appmenu-gtk-module"
-```
-
-Reiniciar
-
-Ir a Gnome Extensions y configurar a gusto
-
-</details>
-
 
 ## uLauncher
 <details>
@@ -217,6 +191,32 @@ sudo cp -r San-Francisco-Pro-Fonts /usr/share/fonts
 En Gnome Tweaks reemplazar las fuentes:
 ![image](https://github.com/soype/Configuracion-linux-macos/assets/45084173/ba6b4e18-aaa1-4b9b-891e-dcee4f84c36d)
 
+
+</details>
+
+## Fildem V2
+<details>
+    <summary>Global menu en Gnome 42+</summary>
+
+```
+sudo apt install libbamf3-dev bamfdaemon libkeybinder-3.0-dev appmenu-gtk2-module appmenu-gtk3-module unity-gtk-module-common python3-pip
+cd ~/Downloads
+git clone https://github.com/Weather-OS/Fildem-v2
+cd Fildem-v2
+sudo cp -r fildemGMenu@gonza.com ~/.local/share/gnome-shell/extensions
+sudo python3 setup.py install --optimize=1
+echo 'gtk-modules="appmenu-gtk-module"' >> ~/.gtkrc-2.0
+```
+
+Ir a ~/.config/gtk-3.0/ y abrir el archivo settings.ini
+Agregar esta línea debajo de Settings:
+```
+gtk-modules="appmenu-gtk-module"
+```
+
+Log out / Reiniciar
+
+Ir a Gnome Extensions y configurar a gusto
 
 </details>
 
