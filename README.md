@@ -134,7 +134,7 @@ devices: (
 
 ```
 sudo apt install libbamf3-dev bamfdaemon libkeybinder-3.0-dev appmenu-gtk2-module appmenu-gtk3-module unity-gtk-module-common python3-pip
-cd ~/Descargas
+cd ~/Downloads
 git clone https://github.com/Weather-OS/Fildem-v2
 cd Fildem-v2
 sudo cp -r fildemGMenu@gonza.com ~/.local/share/gnome-shell/extensions
@@ -182,7 +182,7 @@ https://extensions.gnome.org/extension/19/user-themes/
 https://extensions.gnome.org/extension/3193/blur-my-shell/
 
 ```
-cd ~/Descargas
+cd ~/Downloads
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git --depth=1
 cd WhiteSur-gtk-theme
 sudo ./install.sh
@@ -190,7 +190,7 @@ sudo ./install.sh
 
 ### Agregar fuente SF PRO Display
 ```
-cd ~/Descargas
+cd ~/Downloads
 git clone https://github.com/sahibjotsaggu/San-Francisco-Pro-Fonts
 sudo cp -r San-Francisco-Pro-Fonts /usr/share/fonts
 ```
