@@ -250,7 +250,7 @@ Reiniciar
 A partir de acá, todo es opcional. Estos son los programas que yo utilizo y me sirve tenerlos todos acá para un setup más rápido
 
 
-##[OPCIONAL] Brave Browser
+## Brave Browser
 <details>
     
 ```
