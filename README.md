@@ -128,6 +128,15 @@ devices: (
 
 </details>
 
+## Gnome Tweaks
+
+<details>
+    <summary>Herramientas para personalizar Gnome</summary>
+```
+sudo apt install gnome-tweaks
+```
+</details>
+
 ## Fildem V2
 <details>
     <summary>Global menu en Gnome 42+</summary>
@@ -180,6 +189,16 @@ https://extensions.gnome.org/extension/19/user-themes/
 
 ### Blur my shell
 https://extensions.gnome.org/extension/3193/blur-my-shell/
+
+Extensions viene instalado pero a veces tiene problemas. En caso de que las extensiones no se instalen, hacer esto:
+
+```
+rm -rf ~/.local/share/gnome-shell/extensions/
+mkdir -p ~/.local/share/gnome-shell/extensions/
+chown -R $USER:$USER ~/.local/share/gnome-shell/extensions/
+```
+
+Luego instalamos el theme
 
 ```
 cd ~/Downloads
