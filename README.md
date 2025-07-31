@@ -1,37 +1,26 @@
 # Configuracion-linux-macos
 
 
-## Autokey configuracion en Español (Latinoamerica) de MacOS
+## Kinto para el teclado
 
 <details>
-    <summary>Configuración para el teclado</summary>
+    <summary>Convierte linux en macos</summary>
+https://github.com/rbreaves/kinto
 
 ```
-sudo apt install gnome-tweaks
-sudo apt install dbus-x11
+git clone https://github.com/rbreaves/kinto.git
+cd kinto
+sudo apt update
 sudo apt install python3
-sudo apt install autokey-gtk
-cd ~/Descargas
-git clone https://github.com/soype/autokey-gnome-macos-phrases
-cd autokey-gnome-macos-phrases
-chmod +x ./install.sh
-sudo ./install.sh
-sudo cp -r gnome-macos-phrases ~/.config/autokey/data
-cd ~/.config/autokey/data/gnome-macos-phrases
-tar -xvf command-link.tar.xz
-git clone https://github.com/petrstepanov/gnome-macos-remap
-cd gnome-macos-remap
-chmod +x ./install.sh ./uninstall.sh
-sudo ./install.sh
-autokey-gtk
+./setup.py
 ```
 
-Configurar Autokey para que inicie al reiniciar
+Si falla, seguir las instrucciones e intentar de nuevo. Es automatico.
 
-Ir a Gnome Tweaks y modificar esto:
-
-![image](https://github.com/soype/autokey-gnome-macos-phrases/assets/45084173/23e55f50-eb2b-4358-b189-6f64145bf087)
-
+Inicia con
+```
+sudo systemctl start xkeysnail
+```
 </details>
 
 ## logiops-mxmaster3
@@ -42,7 +31,7 @@ Install
 
 ```
 sudo apt install build-essential cmake pkg-config libevdev-dev libudev-dev libconfig++-dev libglib2.0-dev
-cd ~/Descargas/
+cd ~/Downloads/
 git clone https://github.com/PixlOne/logiops/
 cd logiops
 mkdir build
@@ -50,7 +39,7 @@ cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 sudo make install
-cd ~/Descargas/
+cd ~/Downloads/
 git clone https://github.com/soype/logiops-mxmaster3
 cd logiops-mxmaster3
 sudo cp ./logid.cfg /etc/
@@ -233,7 +222,7 @@ Reiniciar
 
 ## FIN
 
-#### Revisar que al inicio se ejecuten: Autokey, Plank, uLauncher y logid
+#### Revisar que al inicio se ejecuten: Kinto, Plank, uLauncher y logid
 
 ---------------------------------------------------------------------------------------------------
 
